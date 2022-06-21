@@ -1,4 +1,7 @@
 .card-img {
-  height: 250px;
-  width: 400px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 20%;
+  height: auto;
 }
