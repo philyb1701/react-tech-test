@@ -2,7 +2,9 @@
 
 exports[`Search renders correctly 1`] = `
 <DocumentFragment>
-  <form>
+  <form
+    class="search-form"
+  >
     <input
       class="search-bar"
       type="text"

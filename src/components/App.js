@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Search from "./Search";
+import SearchResults from "./SearchResults";
+
 import "../styles/app.css";
 
 const App = () => {
@@ -12,7 +14,11 @@ const App = () => {
         src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
         alt="nasa-logo"
       />
-      <Search setSearchResults={setSearchResults} />
+      <Search
+        setSearchResults={setSearchResults}
+        searchResults={searchResults}
+      />
+      <SearchResults />
     </div>
   );
 };
